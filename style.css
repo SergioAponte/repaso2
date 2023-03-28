@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.arriba{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+.container_tarjeta{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+.tarjeta2{
+    height: 300px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    background-color: aquamarine;
+}
+
+.tarjeta2:hover{
+    background-color: rgba(127, 255, 212, 0.425);
+}
